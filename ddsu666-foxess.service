@@ -1,0 +1,11 @@
+[Unit]
+Description=DDSU666 FOXESS
+After= multi-user.target
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/ddsu666-foxess/ddsu666-foxess.py
+StandardOutput=inherit
+StandardError=inherit
+User=pi
+Group=dialout
+[Install]
+WantedBy=graphical.target

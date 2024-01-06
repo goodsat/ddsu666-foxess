@@ -1,0 +1,7 @@
+sensor:
+  - name: ddsu666 foxess loads power
+    state_topic: "ddsu666-foxess/loads_power"
+    unit_of_measurement: "W"
+    icon: mdi:power-plug
+    state_class: total_increasing
+    device_class: energy
